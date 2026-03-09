@@ -1,0 +1,71 @@
+[
+    {
+        "name": "Pancake",
+        "chainId": 8453,
+        "type": "MasterChief", 
+        "positionManager": "0x46A15B0b27311cedF172AB29E4f4766fbE7F4364",
+        "rewardsManagerAddress": "0xC6A2Db661D5a5690172d8eB0a7DEA2d3008665A3",
+        "tracker": "https://pancakeswap.finance/liquidity/{strURL}?chain=base",
+        "tracker2": "https://pancakeswap.finance/liquidity/pool/base/{strURL}",
+        "rewardToken": "0x3055913c90Fcc1A6CE9a358911721eEb942013A1",
+        "rewardTokenSymbol": "Cake",
+        "swapPoolRewardToken": "0x03C33a2fC0D444a5B61E573f9e1A285357a694fc",
+        "botContractIdentifiers": ["", ""]
+        
+    },
+
+    {
+        "name": "Uniswap",
+        "chainId": 8453,
+        "type": "noReward", 
+        "positionManager": "0x03a520b32C04BF3bEEf7BEb72E919cf822Ed34f1",
+        "rewardsManagerAddress": "0xC6A2Db661D5a5690172d8eB0a7DEA2d3008665A3",
+        "tracker": "https://app.uniswap.org/positions/v3/base/{strURL}",
+        "tracker2": "https://app.uniswap.org/explore/pools/base/{strURL}",
+        "rewardToken": "0x940181a94A35A4569E4529A3CDfB74e38FD98631",
+        "rewardTokenSymbol": "UNI",
+        "swapPoolRewardToken": "0x3d5D143381916280ff91407FeBEB52f2b60f33Cf",
+        "botContractIdentifiers": ["", "", ""]
+    },
+
+
+
+    {
+        "name": "Aero",
+        "chainId": 8453,
+        "type": "GaugeV2", 
+        "positionManager": "0x827922686190790b37229fd06084350E74485b72",
+        "rewardsManagerAddress": "0xD30677bd8dd15132F251Cb54CbDA552d2A05Fb08",
+        "tracker": " https://aerodrome.finance/liquidity/{strURL}?chain=base",
+        "tracker2": " https://aerodrome.finance/liquidity/{strURL}",
+        "rewardToken": "0x940181a94A35A4569E4529A3CDfB74e38FD98631",
+        "rewardTokenSymbol": "Aero",
+        "swapPoolRewardToken": "0x3d5D143381916280ff91407FeBEB52f2b60f33Cf",
+        "botContractIdentifiers": ["", "", "", ""]
+    },
+  
+
+    {
+        "name": "Pancake",
+        "chainId": 42161,
+        "type": "MasterChief", 
+        "positionManager": "0x46A15B0b27311cedF172AB29E4f4766fbE7F4364",
+        "rewardsManagerAddress": "0x5e09ACf80C0296740eC5d6F643005a4ef8DaA694",
+        "tracker": "https://pancakeswap.finance/liquidity/{strURL}?chain=arbitrum",
+        "tracker2": "https://pancakeswap.finance/liquidity/pool/arb/{strURL}",
+        "rewardToken": "0x1b896893dfc86bb67Cf57767298b9073D2c1bA2c",
+        "rewardTokenSymbol": "Cake",
+        "swapPoolRewardToken": "0xF5Fac36c2429e1Cf84D4aBACdB18477Ef32589c9"
+    },
+    {
+        "name": "Ramses",
+        "chainId": 42161,
+        "type": "GaugeV2", 
+        "positionManager": "0xAA277CB7914b7e5514946Da92cb9De332Ce610EF",
+        "rewardsManagerAddress": "0xAA2fBD0C9393964aF7c66C1513e44A8CAAae4FDA",
+        "tracker": "https://app.ramses.exchange/liquidity/v2/{strURL}",
+        "tracker2": "https://app.ramses.exchange/liquidity/v2/{strURL}",
+        "rewardToken": "0xAAA6C1E32C55A7Bfa8066A6FAE9b42650F262418",
+        "swapPoolRewardToken": "0x08F7b312570005681c21Eb621e5Ca8a643204d28"
+    }   
+]

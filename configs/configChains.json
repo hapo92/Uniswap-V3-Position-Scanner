@@ -1,0 +1,29 @@
+
+[
+    {
+        "chain": "Base",
+        "chainId": 8453,
+        "scannerRpcURL": "",
+        "ownAddress": "",
+        "getProtocolDataAddress": "",
+        "tokenInfoAddress": "",
+        "viewInfoAddress": "",
+        "arbitrageAddress": "",
+        "addressWETH": "0x4200000000000000000000000000000000000006",
+        "addressUSDC": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "poolWETHUSDC": "0xb2cc224c1c9feE385f8ad6a55b4d94E92359DC59",
+        "tokenIdScannerAddress": "",
+        "blockMineSecs" : 2
+    },
+    {
+        "chain": "Arbitrum",
+        "chainId": 42161,
+        "scannerRpcURL": "",
+        "ownAddress": "",
+        "getProtocolDataAddress": "",
+        "tokenInfoAddress": "",
+        "viewInfoAddress": "",
+        "addressWETH": ""
+    }   
+
+]
